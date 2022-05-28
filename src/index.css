@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
-*{text-align: center;margin: 0;padding: 0;}
+*{text-align: center;margin: 0;padding: 0;font-family: 'Josefin Sans', sans-serif;}
 
 .mainWrapper {
 	display: table;
@@ -25,4 +25,65 @@
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 30px;
 	color: #c78793;
+}
+.listCard {
+	width: 300px;
+	background: #fff;
+	display: inline-block;
+	border-radius: 10px;
+	padding-bottom: 30px;
+}
+.listCard h1 {
+	background: #d976d9;
+	border-radius: 10px 10px 0 0;
+	color: #fff;
+	padding: 15px 0 10px;
+	font-family: 'Josefin Sans', sans-serif;
+	margin: 0;
+}
+.listCard input {
+	margin-top: 20px;
+	border-bottom: 4px solid #d976d9;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	width: 70%;
+	font-size: 17px;
+	text-transform: capitalize;
+	letter-spacing: 1px;
+	height: 40px;
+}
+.listCard button {
+	width: 50px;
+	height: 50px;
+	background: #d976d9;
+	border: none;
+	border-radius: 50%;
+	color: #fff;
+	font-size: 25px;
+	margin: 10px 0 0 10px;
+	position: relative;
+	top: 5px;
+}
+.listCard ul {
+	padding-left: 40px;
+	padding-top: 30px;
+	list-style: none;
+}
+.listCard li {
+	text-align: left;
+	color: #666;
+}
+.todo_style{
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+	align-items: center;
+}
+.todo_style i{
+	margin-right: 30px;
+	cursor: pointer;
+}
+.todo_style i:hover{
+	color: #d976d9;
 }
